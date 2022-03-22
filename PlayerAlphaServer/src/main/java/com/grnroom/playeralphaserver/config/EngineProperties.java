@@ -6,7 +6,7 @@ import java.util.Properties;
 
 public class EngineProperties {
 
-    private static final String PROPERTIES_PATH = "./application.properties";
+    private static final String PROPERTIES_PATH = "./engine.properties";
     private static Properties props;
 
     public static String getString (String key) {
